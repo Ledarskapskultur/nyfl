@@ -12,6 +12,7 @@ Kör:
     http://127.0.0.1:5000/
 """
 
+from flask import Flask, render_template_string, send_file
 import io
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
